@@ -1,0 +1,45 @@
+
+.row{
+    height: 100vh;
+    width: 100vw;
+    background-image: url("https://media.istockphoto.com/id/1133122481/vector/elegant-white-background-with-shiny-lines.jpg?s=612x612&w=0&k=20&c=kQ_Y0yGbof8i6qudPlx7LJu5W3GWYnL-U9zh0zF_IB4=");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex; 
+    flex-direction: row;
+    justify-content: center;
+}
+.row .col-8{
+    height: 100%;
+    width: 60%;
+    /* border: 2px solid red; */
+    
+}
+.row .col-8 img{
+    width: 80%;
+    height: 80%;
+    margin: 5rem;
+}
+.row .col-4{
+    height: 100%;
+    width: 30%;
+    /* border: 2px solid black; */
+}
+.row .col-4 #content{
+    width: 80%;
+    height: 80%;
+    margin: 2.5rem;
+}
+.row .col-4 #content #btn1{
+    border: none;
+    margin: 1.5rem;
+}
+.row .col-4 #content #btn2{
+    background-color: red;
+    border-radius: 2rem;
+    margin: 2.5rem;
+    color: white;
+}
+.row .col-4 #content p{
+    margin-bottom: 28px;
+}
